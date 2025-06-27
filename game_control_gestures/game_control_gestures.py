@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 import pyautogui
 
-# Initialize MediaPipe and drawing utility
+# Initialize MediaPipe and drawing utilityetgt
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 hands = mp_hands.Hands(max_num_hands=1, min_detection_confidence=0.7)
